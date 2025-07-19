@@ -1,6 +1,7 @@
 import { RiReactjsLine } from 'react-icons/ri'; // React
 import { FaHtml5 } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
+import BlazorIcon from '@iconify-icons/simple-icons/blazor';
+import { IoLogoJavascript } from "react-icons/io5";
 import { Icon } from '@iconify/react';
 import CsharpIcon from '@iconify-icons/simple-icons/csharp';
 import SqlserverIcon from '@iconify-icons/simple-icons/microsoftsqlserver';
@@ -38,43 +39,49 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='C#'>
           <Icon icon={CsharpIcon} className='text-7xl text-fuchsia-600' />
         </motion.div>
          <motion.div 
           variants={iconVariants(3)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='SQL Server'>
           <Icon icon={SqlserverIcon} className='text-7xl text-red-600' />
         </motion.div>
         <motion.div 
           variants={iconVariants(5)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='HTML5'>
           <FaHtml5 className='text-7xl text-amber-300'/>
         </motion.div>
         <motion.div 
           variants={iconVariants(2)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className='text-7xl text-green-500'/>
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='JavaScript'>
+          <IoLogoJavascript className='text-7xl text-green-500'/>
         </motion.div>
         <motion.div 
           variants={iconVariants(6)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='React'>
           <RiReactjsLine className='text-7xl text-cyan-400'/>
         </motion.div>
         <motion.div 
           variants={iconVariants(4)}
           initial='initial'
           animate='animate'
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-            <Icon icon={GithubIcon} width="60" height="60" />
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title='Blazor'>
+            <Icon icon={BlazorIcon} width="60" height="60" />
           </motion.div>
       </motion.div>
     </div>
