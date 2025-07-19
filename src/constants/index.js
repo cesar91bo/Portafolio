@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `Soy desarrollador .NET con más de 6 años de trayectoria, participando en proyectos para universidades, empresas y clientes particulares. Mi prioridad es optimizar procesos y mejorar la experiencia del usuario, aportando soluciones eficientes y escalables. Me mantengo en constante aprendizaje para enfrentar nuevos desafíos y sumar valor en cada trabajo.`
 
@@ -49,37 +49,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sistema de Ventas",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Sistema de ventas para tiendas de telas y mercerías que permite gestionar de manera eficiente las compras y pedidos. Facilita el proceso de venta al ofrecer una atención al cliente rápida y organizada. Optimiza la actualización de productos y la comunicación con los proveedores, mejorando la experiencia de compra y reduciendo tiempos de espera en el punto de venta.",
+    technologies: ["HTML", "CSS", "blazor", ".NET", "SQL Server"],
   },
   {
-    title: "Task Management App",
+    title: "Sistema Para Local de Repuestos",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Sistema de facturación para locales de repuestos de motos y bicicletas. Permite registrar ventas, controlar stock en tiempo real y generar comprobantes de forma rápida. Ideal para agilizar la atención y mantener un control eficiente del inventario.",
+    technologies: [".NET Framework", "Power BI", "SQL Server"],
   },
   {
-    title: "Portfolio Website",
+    title: "Reportes y Análisis de Datos",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      " Módulo de análisis y reportes diseñado para visualizar métricas clave del negocio. Permite generar informes detallados de ventas, ingresos, egresos y rendimiento por periodo. Ideal para tomar decisiones estratégicas basadas en datos y mejorar la gestión operativa.",
+    technologies: ["HTML", "CSS", "Power BI", ".NET"],
   },
   {
-    title: "Blogging Platform",
+    title: "Sistema de Gestión Para Proveedor de Servicios de Internet y Cable",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Sistema de facturación diseñado para proveedores de internet y cable. Permite gestionar planes, emitir boletas automáticas y controlar pagos de clientes en tiempo real. Optimiza procesos administrativos y mejora la atención al usuario.",
+    technologies: [".NET Framework", "Power BI", "SQL Server"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Ciudad de Buenos Aires - Argentina ",
+  phoneNo: "3725 - 403098",
+  email: "cesar91bo@gmail.com",
 };

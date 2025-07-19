@@ -9,7 +9,9 @@ const Hero = () => {
                     <h1 className="pb-16 text-6xl font-thin tracking-tight lg:text-8xl">
                         César Ramirez
                     </h1> 
-                    <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Desarrollador .NET</span>
+                    <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
+                        bg-clip-text text-3xl tracking-tight text-transparent">Desarrollador .NET
+                    </span>
                     <p className='my-2 max-w-xl py-6 font-light tracking-tight'>
                         {HERO_CONTENT}
                     </p>
