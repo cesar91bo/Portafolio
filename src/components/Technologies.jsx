@@ -41,7 +41,7 @@ const Technologies = () => {
           animate='animate'
           className="rounded-2xl border-4 border-neutral-800 p-4"
           title='C#'>
-          <Icon icon={CsharpIcon} className='text-7xl text-fuchsia-600' />
+          <Icon icon={CsharpIcon} className='text-7xl text-purple-800' />
         </motion.div>
          <motion.div 
           variants={iconVariants(3)}
@@ -81,7 +81,7 @@ const Technologies = () => {
           animate='animate'
           className="rounded-2xl border-4 border-neutral-800 p-4"
           title='Blazor'>
-            <Icon icon={BlazorIcon} width="60" height="60" />
+            <Icon icon={BlazorIcon} className='text-indigo-700' width="60" height="60" />
           </motion.div>
       </motion.div>
     </div>
