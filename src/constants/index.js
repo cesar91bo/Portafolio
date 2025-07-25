@@ -80,6 +80,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Ciudad de Buenos Aires - Argentina ",
-  phoneNo: "3725 - 403098",
+  phoneNo: "+54 9 11 26320835",
   email: "cesar91bo@gmail.com",
 };

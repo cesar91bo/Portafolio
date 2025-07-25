@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="https://github.com/cesar91bo" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-cyan-400 transition-colors duration-200" />
         </a>
-        <a href="https://wa.me/5493725403098" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5491126320835" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="hover:text-cyan-400 transition-colors duration-200" />
         </a>
         <a href="https://www.instagram.com/cesar91bo/" target="_blank" rel="noopener noreferrer">
